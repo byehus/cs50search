@@ -6,13 +6,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Search</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 
 <body>
-    <form action="https://google.com/search">
-        <input type="text" name="q">
-        <input type="submit" value="Google Search">
-    </form>
+    <!-- Todo: Add Google Image 
+     Todo: Add Buttons for Search and I'm feeling lucky 
+     Todo: Add search icon using Font Awesome -->
+
+    <!-- *Important -->
+
+    <!-- !Make sure to make it responsive -->
+
+    <div class="flex-header">
+        <div class="header-links">
+            <a class="left-links"
+                href="https://about.google/?fg=1&utm_source=google-GB&utm_medium=referral&utm_campaign=hp-header">About</a>
+            <a class="left-links"
+                href="https://store.google.com/GB?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-GB">Store</a>
+        </div>
+        <div class="header-links">
+            <a class="right-links" href="/images.html">Images</a>
+            <a class="right-links" href="/advanced.html">Adavanced Search</a>
+        </div>
+    </div>
+    <div class="flex-img">
+        <div class="img">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+                alt="Google-logo">
+
+            <form action="https://google.com/search">
+                <i class="fas fa-search">
+                    <input type="text" name="q">
+                </i>
+                <input type="submit" name="btnK" value="Google Search">
+                <br>
+                <input type="submit" name="btnI" value="I'm Feeling Lucky">
+            </form>
+        </div>
+    </div>
 </body>
 
 </html>
