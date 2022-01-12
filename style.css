@@ -96,4 +96,15 @@ a:hover {
 .s-input {
   border: none;
   text-decoration: none;
+  text-indent: 10px;
+  width: 300px;
+  font-size: 14px;
+}
+
+.s-input:focus {
+  outline: none;
+}
+
+.fa-search {
+  color: #ccced1;
 }
